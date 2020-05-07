@@ -65,54 +65,68 @@
                  How to use
             </h1>
         </div>
-        <section class="container">
-            <div class="columns features">
-                <div class="column is-4">
-                    <div class="card is-shady">
-                        <div class="card-image has-text-centered">
-                            <i class="fa fa-paw"></i>
-                        </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <h4>Tristique senectus et netus et. </h4>
-                                <p>Purus semper eget duis at tellus at urna condimentum mattis. Non blandit massa enim nec. Integer enim neque volutpat ac tincidunt vitae semper quis. Accumsan tortor posuere ac ut consequat semper viverra nam.</p>
-                                <p><a href="#">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
+        <section id="howtouse" class="container mt80 inview">
+            <h1 class="title has-text-centered is-spaced">How to use</h1>
+            <div class="box">
+              <article class="media">
+          
+                <div class="media-content">
+                  <div class="content">
+                    <p class="subtitle has-text-centered">1. Upload videos(or images)</p>
+                  </div>
+          
+                  <figure class="has-text-centered">
+                    <img alt="Deepfakes web | How to use - Upload videos" style="max-width: 900px; width: 100%;" onclick="sendClickEvent(this)" id="how_to_image_upload" src="/assets/how_to_use_uploaded-e01ff5d95562f8ca5cb7480b3417efe19e43b4274ec3002af1d1a1753552cbd7.jpg">
+                  </figure>
                 </div>
-                <div class="column is-4">
-                    <div class="card is-shady">
-                        <div class="card-image has-text-centered">
-                            <i class="fa fa-empire"></i>
-                        </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <h4>Tempor orci dapibus ultrices in.</h4>
-                                <p>Ut venenatis tellus in metus vulputate. Amet consectetur adipiscing elit pellentesque. Sed arcu non odio euismod lacinia at quis risus. Faucibus turpis in eu mi bibendum neque egestas cmonsu songue. Phasellus vestibulum lorem
-                                sed risus.</p>
-                                <p><a href="#">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-4">
-                    <div class="card is-shady">
-                        <div class="card-image has-text-centered">
-                            <i class="fa fa-apple"></i>
-                        </div>
-                        <div class="card-content">
-                            <div class="content">
-                                <h4> Leo integer malesuada nunc vel risus. </h4>
-                                <p>Imperdiet dui accumsan sit amet nulla facilisi morbi. Fusce ut placerat orci nulla pellentesque dignissim enim. Libero id faucibus nisl tincidunt eget nullam. Commodo viverra maecenas accumsan lacus vel facilisis.</p>
-                                <p><a href="#">Learn more</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </article>
             </div>
-            
-        </section>
+          
+            <div class="box">
+              <article class="media">
+          
+                <div class="media-content">
+                  <div class="content">
+                    <p class="subtitle has-text-centered">2. Wait until completion</p>
+                  </div>
+          
+                  <figure class="has-text-centered">
+                    <img alt="Deepfakes web | How to use - Wait for a while" style="max-width: 350px; width: 100%;" src="/assets/how_to_use_creating-59d822edc24077abcbf2b028f4dc079d4511435614bf9f87e4bfb6dd00308a41.png">
+                  </figure>
+                </div>
+              </article>
+            </div>
+          
+            <div class="box">
+              <article class="media">
+          
+                <div class="media-content has-text-centered">
+                  <div class="content">
+                    <p class="subtitle has-text-centered">3. Done!</p>
+                  </div>
+                  You can now watch the video.<br>
+          
+                  <video onplay="sendClickEvent(this)" onclick="this.play()" id="video_output_example" style="max-width: 450px; width: 100%; cursor: pointer;" src="https://d285xazlytdv8t.cloudfront.net/output.mp4" controls="" controlslist="nodownload nofullscreen" playsinline="" preload="metadata" poster="/assets/poster-b60c534e3e987909e020aa204a8b6ea775b9b7f9a6acedebfdcc7a3f09f7664a.png">
+                </video></div>
+              </article>
+            </div>
+          
+            <div class="box">
+              <article class="media">
+                <div class="media-content has-text-centered">
+                  <div class="content">
+                    <p class="subtitle has-text-centered">4. Reuse your model</p>
+                  </div>
+          
+                  The lower the loss values are, the higher the quality will be. (They should be less than 0.02)<br>
+                  <figure class="has-text-centered">
+                    <img alt="Deepfakes web | How to use - Reuse your model" style="max-width: 900px; width: 100%;" src="/assets/how_to_use_model_loss-ffa90975859e52c35fe9b7fcc158a9457a846c23e17ff3c501607d71ad59bcee.jpg">
+                  </figure>
+                </div>
+              </article>
+            </div>
+          
+          </section>
         <footer class="footer">
             <div class="container">
                 <div class="columns">
