@@ -22,7 +22,7 @@
                             <a class="navbar-item" href="../">
                                 <img src="http://bulma.io/images/bulma-type-white.png" alt="Logo">
                             </a>
-                            <a role="button" class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                            <a role="button" class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');document.querySelector('.navbar-burger').classList.toggle('is-active')" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -36,7 +36,7 @@
                                         <li><a href="">Examples</a></li>
                                     </ul>
                                     <span class="navbar-item">
-                                        <a class="button is-white is-outlined" href="https://github.com/BulmaTemplates/bulma-templates/blob/master/templates/hero.html">
+                                        <a class="button is-white is-outlined" href="/users/signup">
                                             <span class="icon">
                                                 <i class="fa fa-video"></i>
                                             </span>
@@ -52,7 +52,7 @@
             <div class="hero-body">
                 <div class="container has-text-centered">
                     <h1 class="title">
-                    Generate Deepfakes with a single image
+                    Generate deepfakes with a single image
                     </h1>
                     <h2 class="subtitle">
                     Animate images from the motion of a video for free
@@ -75,7 +75,7 @@
                   </div>
           
                   <figure class="has-text-centered">
-                    <img alt="Deepfakes web | How to use - Upload videos" style="max-width: 512px; width: 100%;" onclick="sendClickEvent(this)" id="how_to_image_upload" src="/Users/felicien/Desktop/Deepfake/repo/ezgif.com-video-to-gif.gif">
+                    <img alt="Deepfakes | How to use - Upload video and image" style="max-width: 512px; width: 100%;" onclick="sendClickEvent(this)" id="how_to_upload" src="/Users/felicien/Desktop/Deepfake/repo/ezgif.com-video-to-gif.gif">
                   </figure>
                 </div>
               </article>
@@ -90,7 +90,7 @@
                   </div>
           
                   <figure class="has-text-centered">
-                    <img alt="Deepfakes web | How to use - Wait for a while" style="max-width: 350px; width: 100%;" src="/Users/felicien/Desktop/Deepfake/repo/how_to_use_creating-59d822edc24077abcbf2b028f4dc079d4511435614bf9f87e4bfb6dd00308a41.png">
+                    <img alt="Deepfakes | How to use - Wait for a while" style="max-width: 350px; width: 100%;" src="/Users/felicien/Desktop/Deepfake/repo/how_to_use_creating-59d822edc24077abcbf2b028f4dc079d4511435614bf9f87e4bfb6dd00308a41.png">
                   </figure>
                 </div>
               </article>
@@ -103,9 +103,10 @@
                   <div class="content">
                     <p class="subtitle has-text-centered">3. Done!</p>
                   </div>
-                  You can now watch the video.<br>
+                  You can now watch the video
+                  <br>
           
-                  <video onplay="sendClickEvent(this)" onclick="this.play()" id="video_output_example" style="max-width: 450px; width: 100%; cursor: pointer;" src="/Users/felicien/Desktop/Deepfake/repo/fe017795-9b92-4a89-b918-4709903aac21.MP4" controls="" controlslist="nodownload nofullscreen" playsinline="" preload="metadata" poster="/assets/poster-b60c534e3e987909e020aa204a8b6ea775b9b7f9a6acedebfdcc7a3f09f7664a.png">
+                  <video onplay="sendClickEvent(this)" onclick="this.play()" id="video_output_example" style="max-width: 450px; width: 100%; cursor: pointer;" src="/Users/felicien/Desktop/Deepfake/repo/fe017795-9b92-4a89-b918-4709903aac21.MP4" controls="" controlslist="nodownload nofullscreen" playsinline="" preload="metadata" poster="/Users/felicien/Desktop/Deepfake/repo/ezgif.com-video-to-apng.png">
                 </video></div>
               </article>
             </div>
@@ -115,7 +116,7 @@
           </section>
           <section class="container m40">
             <div class="has-text-centered">
-              <a class="button is-danger is-large" href="/users/sign_up">Create a video</a>
+              <a class="button is-danger is-large" href="/users/signup">Create a video</a>
             </div>
           </section>     
 
@@ -124,7 +125,6 @@
               <ul class="footer-list">
                 <li><a href="/terms">Terms</a></li>
                 <li><a href="/privacy">Privacy policy</a></li>
-                <li><a href="/raw">Law</a></li>
                 <li><a href="/faq">FAQ</a></li>
                 
               </ul>
