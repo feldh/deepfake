@@ -11,10 +11,6 @@ a>h1 {
     cursor: default;
 }
 
-.button.is-danger {
-    background-color: #3693de;
-}
-
 footer.footer .footer-list {
     margin: 0 !important;
     list-style: none;
