@@ -1,8 +1,8 @@
-# Deepfake Generator
+# Deepfake App
 
 ## Description
 
-This is a simple mockup page for the interface of a deepfake generator web application.
+This is a simple mockup page for the interface of a deepfake web application.
 
 ## Preview
 
